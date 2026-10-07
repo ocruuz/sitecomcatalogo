@@ -1,0 +1,252 @@
+body{
+    background-color: rgba(6, 0, 12, 0.884);
+}
+h1{
+    color: rgb(248, 248, 244);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 100px;
+}
+#banner{
+    width:100%;
+    height: 300px;
+}
+#dobanner{
+    color:rgb(211, 211, 211);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+}
+#menu{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+a{
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px;
+}
+.secundario{
+    color: black;
+    background-color: rgba(250, 235, 215, 0.651);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.last{
+     color: black;
+    background-color: rgba(250, 235, 215, 0.651);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c9a227;
+    color: #000;
+    transition: 0.3s;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.titulo-dest{
+    color:rgb(211, 211, 211);
+    text-align: center;
+}
+.produtos-destaque li{
+flex: 1;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(250, 235, 215, 0.651);
+overflow: hidden;
+margin: 20px;
+}
+.produto-destaque ul{
+    display: flex;
+    gap: 30px;
+}
+.produto-destaque-img{
+width: 100%;
+height: 180px;
+object-fit: cover;
+}
+.produtos-destaque ul{
+    margin-top: 0;
+    font-size: 1.2rem;
+    color:black;
+    display: flex;
+    gap: 16px;
+}
+.card-conteudo{
+    padding: 16px;
+}
+.card-titulo1{
+    margin-top: 0;
+    font-size: 1.2rem;
+    color:black;
+}
+.card-preco1{
+    font-size: 0.9rem;
+    color: #f70909;
+    line-height: 1.4;
+}
+.card-botao1{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #f30a0a;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+.card-botao1:hover{
+    background-color: black;
+}
+.card-conteudo2{
+    padding: 16px;
+}
+.card-titulo2{
+    margin-top: 0;
+    font-size: 1.2rem;
+    color:black;
+}
+.card-preco2{
+    font-size: 0.9rem;
+    color: #f70909;
+    line-height: 1.4;
+}
+.card-botao2{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #f30a0a;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+.card-botao2:hover{
+    background-color: black;
+}
+.desc-pro{
+    color: rgb(248, 248, 244);
+    text-align: center;
+}
+.prg-pro{
+    color: rgb(248, 248, 244);
+    text-align: left;
+}
+.banner-ini{
+     width:100%;
+    height: 300px;
+}
+.conteudo-produ{
+    padding: 16px;
+}
+#produtos ul{
+    display: flex;
+    gap: 30px;
+}
+#produtos li{
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(250, 235, 215, 0.651);
+    overflow: hidden;
+    margin: 20px;
+}
+#produtos ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.tt2{
+    color:rgb(211, 211, 211);
+    text-align: center;
+    font-size: 50px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.dosprodu{
+     display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #f30a0a;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+.preco-produ{
+    font-size: 0.9rem;
+    color: #f70909;
+    line-height: 1.4;
+}
+.dosprodu:hover{
+    background-color: #000;
+}
+.imgpro{
+    display: block;
+    margin: 0 auto;
+}
+#sobre{
+    text-align: center;
+    color:rgb(211, 211, 211);
+}
+.prg-sobre{
+    text-align: left;
+}
+.contact{
+    text-align: left;
+    color:rgb(211, 211, 211);
+    font-size: 37px;
+}
+.cta{
+  text-align: center;
+    color:rgb(211, 211, 211);
+    font-size: 40px;  
+}
+.prg-contact{
+     text-align: left;
+    color:rgb(211, 211, 211);
+    font-size: 17px;
+}
+.btend{
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btend:hover{
+    background-color: #000;
+}
+footer{
+color:rgb(211, 211, 211);
+font-size: 10px;
+text-align: center;
+}
+.imgdesq{
+    display: block;
+    margin: 0 auto;
+}
+
+.card-supre:hover{
+    background-color: black;
+}
+.card-supre:hover .card-titulo2{
+    color: white;
+}
+    .card-supre:hover p:not(.card-preco2){
+    color: white;
+    }

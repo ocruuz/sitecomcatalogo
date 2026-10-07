@@ -4,38 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brique Store</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Brique Store</h1>
-        <img src="RdIQqKAlFMPbNC_R-Zzt6YuK-3R9O0h4Ubr7H5TTakSD8iJMqB-KFFx7PdVDOM_cA8AprMw3_acC06PFfyIMh38vBf_Y-gJapVI9gNsajdQCIta9dh8tuvGlgp-PbTl2LezFUs-9p3O3hC6tnbNkT4-eEONhtlSQtBjcxPXg9-9WYSYdrFDj-qlIWDKZf09p.jpg" alt="banner brique store" width="300" height="160">
-        <p>Encontre qualidade, estilo e praticidade em um só lugar.</p>
-            <nav>
+        <img id="banner" src="RdIQqKAlFMPbNC_R-Zzt6YuK-3R9O0h4Ubr7H5TTakSD8iJMqB-KFFx7PdVDOM_cA8AprMw3_acC06PFfyIMh38vBf_Y-gJapVI9gNsajdQCIta9dh8tuvGlgp-PbTl2LezFUs-9p3O3hC6tnbNkT4-eEONhtlSQtBjcxPXg9-9WYSYdrFDj-qlIWDKZf09p.jpg" alt="banner brique store" width="300" height="160">
+        <p id="dobanner">Encontre qualidade, estilo e praticidade em um só lugar.</p>
+            <nav id="menu">
             <a href="#inicio">Início</a>
-            <a href="#produtos">Produtos</a>
+            <a class="secundario" href="#produtos">Produtos</a>
             <a href="#sobre">Sobre nós</a>
-            <a href="#contato">Contato</a>
+            <a class="last" href="#contato">Contato</a>
             </nav>
     </header>
- <section id="produtos-destaque">
-    <h2>Produtos em Destaque:</h2>
+     <section class="produtos-destaque">
+    <h2 class="titulo-dest">Produtos em Destaque:</h2>
      <ul>
             <li>
-                <article>
-                    <img src="./tenis-img1.jpg" alt="Tênis branco casual" width="200" height="121">
-                    <h3>Tênis Casual Urban</h3>
-                    <p>R$129,90</p>
+                <article class="products">
+                    <img class="imgdesq" src="./tenis-img1.jpg" alt="Tênis branco casual" width="200" height="121">
+                    <div class="card-conteudo">
+                    <h3 class="card-titulo1">Tênis Casual Urban</h3>
+                    <p class="card-preco1">R$129,90</p>
                     <p>Tênis casual moderno, confortável e versátil, ideal para compor diferentes estilos no dia a dia.</p>
-                    <button onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    <button class="card-botao1" onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    </div>
                 </article>
                 </li>
          <li>
-                <article>
-                    <img src="oculos-img3.jpg" alt="Óculos urban" width="200" height="121">
-                    <h3>Óculos Urban</h3>
-                    <p>R$59,90</p>
+                <article class="card-supre">
+                    <img class="imgdesq" src="oculos-img3.jpg" alt="Óculos urban" width="200" height="121">
+                    <div class="card-conteudo2">
+                    <h3 class="card-titulo2">Óculos Urban</h3>
+                    <p class="card-preco2">R$59,90</p>
                     <p>Óculos com design moderno, ideal para complementar seu visual e trazer personalidade ao seu estilo.</p>
-                    <button onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    <button class="card-botao2" onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    </div>
                 </article>
             </li>
      </ul>
@@ -43,69 +48,81 @@
     <!--SEÇAO principal-->
 <main>
     <section id="inicio">
-        <h2>Descubra nossos produtos</h2>
-        <p>Confira nossa seleção de produtos escolhidos para oferecer qualidade, praticidade e excelentes preços para o seu dia a dia.</p>
-        <img src="tVZlBvvjic8fihfG00TaentHLbdvFFOx9Bs0gz-slIY-9L9Obm3wDpRqvm7kUFz9C562I074P073PwRKw84SyfWuR3--gXhZLZwOD8ipTqidZ6wLRXlRWMN03sti1ANka9J6rDJEH2Mz5JnIa7rkPX9KN7lC0XlfrA8rlFpuc-_ij0m_mLr5GkuDeQupnXtc.jpg" alt="Veja nossos produtos" width="240" height="121">
-        <a href="#produtos">Veja Nossos Produtos</a>
+        <h2 class="desc-pro">Descubra nossos produtos</h2>
+        <p class="prg-pro">Confira nossa seleção de produtos escolhidos para oferecer qualidade, praticidade e excelentes preços para o seu dia a dia.</p>
+        <img class="banner-ini" src="tVZlBvvjic8fihfG00TaentHLbdvFFOx9Bs0gz-slIY-9L9Obm3wDpRqvm7kUFz9C562I074P073PwRKw84SyfWuR3--gXhZLZwOD8ipTqidZ6wLRXlRWMN03sti1ANka9J6rDJEH2Mz5JnIa7rkPX9KN7lC0XlfrA8rlFpuc-_ij0m_mLr5GkuDeQupnXtc.jpg" alt="Veja nossos produtos" width="240" height="121">
+        <a class="primo" href="#produtos">Veja Nossos Produtos</a>
     
     </section>
     <!--CATALOGO DOS PRODUOS-->
     
     <section id="produtos">
-            <h2>Produtos</h2>
+            <h2 class="tt2">Nossos Produtos</h2>
         <ul>
             <li>
-                <article>
-                    <img src="./tenis-img1.jpg" alt="Tênis branco casual" width="200" height="121">
+                <article class="conteudo-produ">
+                    <div class="card">
+                    <img class="imgpro" src="./tenis-img1.jpg" alt="Tênis branco casual" width="200" height="121">
                     <h3>Tênis Casual Urban</h3>
-                    <p>R$129,90</p>
+                    <p class="preco-produ">R$129,90</p>
                     <p>Tênis casual moderno, confortável e versátil, ideal para compor diferentes estilos no dia a dia.</p>
-                    <button onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    <button class="dosprodu" onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    </div>
                 </article>
                 </li>
             <li>
                 <article>
-                    <img src="relogio-img6.jpg" alt="relogio classic" width="200" height="121">
+                    <div class="card">
+                    <img class="imgpro" src="relogio-img6.jpg" alt="relogio classic" width="200" height="121">
                     <h3>Relógio Classic</h3>
-                    <p>R$89,90</p>
+                    <p class="preco-produ">R$89,90</p>
                     <p>Relógio com design elegante e minimalista, perfeito para quem busca praticidade sem abrir mão do estilo.</p>
-                    <button onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    <button class="dosprodu" onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    </div>
                 </article>
             </li>
             <li>
                 <article>
-                    <img src="mochila-img2.jpg" alt="Mochila premium" width="200" height="121">
+                    <div class="card">
+                    <img class="imgpro" src="mochila-img2.jpg" alt="Mochila premium" width="200" height="121">
                     <h3>Mochila Premium</h3>
-                    <p>R$149,90</p>
+                    <p class="preco-produ">R$149,90</p>
                     <p>Mochila espaçosa e resistente, ideal para trabalho, estudos e viagens curtas.</p>
-                    <button onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    <button class="dosprodu" onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    </div>
                 </article>
             </li>
             <li>
                 <article>
-                    <img src="fone-img4.jpg" alt="Fone Bluetooth" width="200" height="121">
+                    <div class="card">
+                    <img class="imgpro" src="fone-img4.jpg" alt="Fone Bluetooth" width="200" height="121">
                     <h3>Fone Bluetooth</h3>
-                    <p>R$79,90</p>
+                    <p class="preco-produ">R$79,90</p>
                     <p>Fone sem fio compacto, com conexão Bluetooth e excelente praticidade para ouvir suas músicas favoritas.</p>
-                    <button onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    <button class="dosprodu"  onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    </div>
                 </article>
             </li>
             <li>
                 <article>
-                    <img src="oculos-img3.jpg" alt="Óculos urban" width="200" height="121">
+                    <div class="card">
+                    <img class="imgpro" src="oculos-img3.jpg" alt="Óculos urban" width="200" height="121">
                     <h3>Óculos Urban</h3>
-                    <p>R$59,90</p>
+                    <p class="preco-produ">R$59,90</p>
                     <p>Óculos com design moderno, ideal para complementar seu visual e trazer personalidade ao seu estilo.</p>
-                    <button onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    <button class="dosprodu"  onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    </div>
                 </article>
             </li>
             <li>
                 <article>
-                    <img src="camisa-img5.jpg" alt="Camisa essential" width="200" height="121">
+                    <div class="card">
+                    <img class="imgpro"src="camisa-img5.jpg" alt="Camisa essential" width="200" height="121">
                     <h3>Camiseta Essential</h3>
-                    <p>R$49,90</p>
+                    <p class="preco-produ">R$49,90</p>
                     <p>Camiseta básica com modelagem confortável, ideal para combinações casuais e looks versáteis.</p>
-                    <button onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    <button class="dosprodu" onclick="window.location.href='https://wa.me/5513991268979'">Comprar Agora</button>
+                    </div>
                 </article>
             </li>
         </ul>
@@ -114,14 +131,14 @@
     <section id="sobre">
         <h2>Sobre nós</h2>
         <h3>Conheça a Brique Store</h3>
-        <p>A Brique Store nasceu com o objetivo de oferecer produtos selecionados, preços acessíveis e uma experiência de compra simples e prática. Trabalhamos para conectar você a produtos que fazem sentido para o seu dia a dia.</p>
+        <p class="prg-sobre">A Brique Store nasceu com o objetivo de oferecer produtos selecionados, preços acessíveis e uma experiência de compra simples e prática. Trabalhamos para conectar você a produtos que fazem sentido para o seu dia a dia.</p>
     </section>
     <!--Contato-->
     <section id="contato">
-    <h2>Contato</h2>
-    <h3>Ficou interessado em algum produto?</h3>
-    <p>Entre em contato conosco pelo WhatsApp e tire suas dúvidas sobre disponibilidade, pagamento e entrega.</p>
-    <button onclick="window.location.href='https://wa.me/5513991268979'">Falar pelo WhatsApp</button>
+    <h2 class="contact">Contato</h2>
+    <h3 class="cta">Ficou interessado em algum produto?</h3>
+    <p class="prg-contact">Entre em contato conosco pelo WhatsApp e tire suas dúvidas sobre disponibilidade, pagamento e entrega.</p>
+    <button class="btend" onclick="window.location.href='https://wa.me/5513991268979'">Falar pelo WhatsApp</button>
     </section>
 </main>
     <!--Rodapé-->
