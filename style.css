@@ -65,7 +65,7 @@ background-color: white;
 border-radius: 8px;
 box-shadow: 0 4px 8px rgba(250, 235, 215, 0.651);
 overflow: hidden;
-margin: 20px;
+margin: 0;
 }
 .produto-destaque ul{
     display: flex;
@@ -247,6 +247,9 @@ text-align: center;
 .card-supre:hover .card-titulo2{
     color: white;
 }
-    .card-supre:hover p:not(.card-preco2){
+    .card-supre:hover p:not(.card-preco2, .card-preco1){
     color: white;
     }
+    .card-supre:hover .card-titulo1{
+    color: white;
+}
